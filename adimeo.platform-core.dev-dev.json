@@ -23,7 +23,7 @@
           ],
           "executable": false
         },
-        "config/platform/menu.yaml": {
+        "config/platform/.gitkeep": {
           "contents": [
             ""
           ],

@@ -1,0 +1,17 @@
+{
+  "manifests": {
+    "adimeo/platform-form": {
+      "manifest": {
+        "bundles": {
+          "Adimeo\\Platform\\FormBundle\\FormBundle": [
+            "all"
+          ]
+        },
+        "post-install-output": [
+          "  * The platform form is almost ready !"
+        ]
+      },
+      "ref": "f58f9ff8067d8d088f026c4b5700ec876839aaa9"
+    }
+  }
+}

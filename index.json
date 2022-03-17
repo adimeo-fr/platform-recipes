@@ -1,13 +1,16 @@
 {
   "recipes": {
     "adimeo/platform-core": [
-      "dev-dev"
+      "dev-dev",
+      "1.0"
     ],
     "adimeo/platform-form": [
-      "dev-dev"
+      "dev-dev",
+      "1.0"
     ],
     "adimeo/platform-grid": [
-      "dev-dev"
+      "dev-dev",
+      "1.0"
     ]
 
   },
