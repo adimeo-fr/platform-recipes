@@ -11,14 +11,17 @@
     "adimeo/platform-grid": [
       "dev-dev",
       "1.0"
+    ],
+    "adimeo/platform-module-log": [
+      "dev-dev",
+      "1.0"
     ]
-
   },
   "branch": "main",
   "is_contrib": true,
   "_links": {
-    "repository": "github.com/Core-Techs-Git/platform-recipes",
-    "origin_template": "{package}:{version}@github.com/Core-Techs-Git/platform-recipes:main",
-    "recipe_template": "https://api.github.com/repos/Core-Techs-Git/platform-recipes/contents/{package_dotted}.{version}.json"
+    "repository": "github.com/adimeo-fr/platform-recipes",
+    "origin_template": "{package}:{version}@github.com/adimeo-fr/platform-recipes:main",
+    "recipe_template": "https://api.github.com/repos/adimeo-fr/platform-recipes/contents/{package_dotted}.{version}.json"
   }
 }

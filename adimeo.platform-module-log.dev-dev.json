@@ -1,0 +1,33 @@
+{
+    "manifests": {
+      "adimeo/platform-module-log": {
+        "manifest": {
+          "bundles": {
+            "Adimeo\\Platform\\LogBundle\\LogBundle": [
+              "all"
+            ]
+          },
+          "copy-from-recipe": {
+            "config/": "%CONFIG_DIR%/"
+          },
+          "post-install-output": [
+            "  * The platform form is almost ready !"
+          ]
+        },
+        "files": {
+            "config/packages/messenger.yaml": {
+                "contents": [
+                  "framework:",
+                  "    messenger:",
+                  "        transports:",
+                  "            async: '%env(MESSENGER_TRANSPORT_DSN)%'",
+                  "        routing:",
+                  "            'Adimeo\\Platform\\LogBundle\\Message\\PersistLogMessage': async"
+                ],
+                "executable": false
+              }
+          },
+        "ref": "3d1af556d35bc00994427f0cd87097cb9a7ffc34"
+      }
+    }
+}
