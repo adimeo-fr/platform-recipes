@@ -20,14 +20,14 @@
                   "framework:",
                   "    messenger:",
                   "        transports:",
-                  "            async: '%env(MESSENGER_TRANSPORT_DSN)%'",
+                  "            async: '%env(MESSENGER_TRANSPORT_DSN_PLATFORM_LOGS)%'",
                   "        routing:",
                   "            'Adimeo\\Platform\\LogBundle\\Message\\PersistLogMessage': async"
                 ],
                 "executable": false
               }
           },
-        "ref": "c35003a36318f6ac45380575b67626870510d741"
+        "ref": "4f31b139b7c70fb45787064cc7ecc3d50dca5146"
       }
     }
 }
