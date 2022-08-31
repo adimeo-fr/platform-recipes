@@ -1,0 +1,21 @@
+{
+  "manifests": {
+    "adimeo/platform-ged": {
+      "manifest": {
+        "bundles": {
+          "Adimeo\\Platform\\GedBundle\\PlatformGedBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "assets/": "assets/",
+          "config/": "%CONFIG_DIR%/"
+        },
+        "post-install-output": [
+          "  * The platform ged is almost ready !"
+        ]
+      },
+      "ref": "e57f9ff8099d8d077f026c4b5700ec876839ddd9"
+    }
+  }
+}
